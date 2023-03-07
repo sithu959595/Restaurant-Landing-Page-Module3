@@ -1,0 +1,30 @@
+
+
+#dropdown1,#dropdown1child1 {
+	background-color: greenyellow;
+	
+}
+#chicken,#pork,#sushi {
+	background-color: gray;
+	width: 100%;
+	height: 1000px;
+	margin-bottom: 10px;
+}
+
+@media (min-width:576px) and (max-width:767px) {
+	.visible-xs{
+		display: none!important;
+	}
+}
+
+@media (max-width:575px) {
+	#chicken,#pork,#sushi {
+	background-color: gray;
+	width: 80%;
+	height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+}
